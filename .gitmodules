@@ -1,0 +1,3 @@
+[submodule "libs/qw-footprints"]
+	path = libs/qw-footprints
+	url = https://github.com/quark-works/qw-footprints.git
