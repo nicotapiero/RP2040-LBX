@@ -10,3 +10,6 @@ Thanks @beyondperfectly in the JFA Discord for the intial measurements: https://
 * [SW_choc_v1_HS_1u](https://github.com/ebastler/marbastlib/blob/6b0a9a73f579e377816d60b58eac2b3252de7868/footprints/marbastlib-choc.pretty/SW_choc_v1_HS_CPG135001S30_1u.kicad_mod)
 * [SOIC-8_5.23x5.23mm_P1.27mm](https://github.com/KiCad/kicad-footprints/blob/master/Package_SO.pretty/SOIC-8_5.23x5.23mm_P1.27mm.kicad_mod)
 * [CON_TC2030_outlined](https://github.com/ebastler/marbastlib/blob/6b0a9a73f579e377816d60b58eac2b3252de7868/footprints/marbastlib-various.pretty/CON_TC2030_outlined.kicad_mod)
+
+
+`.gitignore` for KiCad from [official Github repo](https://github.com/github/gitignore/blob/5b24c9042da72fcdcbe77dd5043243c987151d64/KiCad.gitignore)
