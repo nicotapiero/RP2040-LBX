@@ -13,3 +13,13 @@ Thanks @beyondperfectly in the JFA Discord for the intial measurements: https://
 
 
 `.gitignore` for KiCad from [official Github repo](https://github.com/github/gitignore/blob/5b24c9042da72fcdcbe77dd5043243c987151d64/KiCad.gitignore)
+
+Button layout to-scale diagram provided by LBX in their manual: https://docs.google.com/document/d/1tbTJEMjoW81OzD7IcGiDwz86cqZ35NQjBmwLq3tH4vI/edit?tab=t.0
+
+Buttons confirmed rotated 9 degrees: https://discord.com/channels/659775676542353438/888150700322861076/1085662648756097205
+
+## Disclaimer
+
+This is an independent, community-developed replacement PCB compatible with the JFA LBX controller.
+
+This project is not affiliated with, endorsed by, or sponsored by JFA. "JFA" and "LBX" are used solely to describe compatibility.
