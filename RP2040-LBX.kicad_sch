@@ -8652,6 +8652,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C318886"
+			(at 264.16 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6a5ff3a3-c3c1-4842-ac8d-bbcd7eab3f88")
 		)
@@ -11226,6 +11237,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C318886"
+			(at 264.16 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91b47197-02e5-4e67-a4be-fcc55b0301f5")
 		)
@@ -11594,6 +11616,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 264.16 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318886"
 			(at 264.16 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13401,6 +13434,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 264.16 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318886"
 			(at 264.16 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -15805,6 +15849,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 264.16 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C318886"
 			(at 264.16 142.24 0)
 			(hide yes)
 			(show_name no)
