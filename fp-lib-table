@@ -6,4 +6,5 @@
 	(lib (name "PCM_marbastlib-choc") (type "KiCad") (uri "${KIPRJMOD}/libs/PCM_marbastlib-choc") (options "") (descr ""))
 	(lib (name "Package_SO") (type "KiCad") (uri "${KIPRJMOD}/libs/Package_SO") (options "") (descr ""))
 	(lib (name "PCM_marbastlib-various") (type "KiCad") (uri "${KIPRJMOD}/libs/PCM_marbastlib-various") (options "") (descr ""))
+	(lib (name "ul_TS-1187A-B-A-B") (type "KiCad") (uri "${KIPRJMOD}/libs/ul_TS-1187A-B-A-B") (options "") (descr ""))
 )
