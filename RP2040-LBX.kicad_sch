@@ -8599,7 +8599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "090c3907-24f4-44be-b5f1-c043c7c1d733")
-		(property "Reference" "SW_2"
+		(property "Reference" "SW_BOOTSEL1"
 			(at 264.16 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8619,7 +8619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ul_TS-1187A-B-A-B:TS-1187A-B-A-B_XKB"
 			(at 264.16 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8661,7 +8661,7 @@
 		(instances
 			(project "RP2040-LBX"
 				(path "/17c378e5-d065-46dd-aa4a-654e3a402061"
-					(reference "SW_2")
+					(reference "SW_BOOTSEL1")
 					(unit 1)
 				)
 			)
@@ -11193,7 +11193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ul_TS-1187A-B-A-B:TS-1187A-B-A-B_XKB"
 			(at 264.16 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11571,7 +11571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ul_TS-1187A-B-A-B:TS-1187A-B-A-B_XKB"
 			(at 264.16 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13358,7 +13358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae6f5403-44d6-4d9b-9a5e-2841da57c4b1")
-		(property "Reference" "SW_PSTOUCH"
+		(property "Reference" "SW_PSTOUCH1"
 			(at 264.16 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13378,7 +13378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ul_TS-1187A-B-A-B:TS-1187A-B-A-B_XKB"
 			(at 264.16 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -13420,7 +13420,7 @@
 		(instances
 			(project "RP2040-LBX"
 				(path "/17c378e5-d065-46dd-aa4a-654e3a402061"
-					(reference "SW_PSTOUCH")
+					(reference "SW_PSTOUCH1")
 					(unit 1)
 				)
 			)
@@ -15762,7 +15762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9f8fe01-e521-4ae1-a770-eb18938219e4")
-		(property "Reference" "SW_HOME"
+		(property "Reference" "SW_HOME1"
 			(at 264.16 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15782,7 +15782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ul_TS-1187A-B-A-B:TS-1187A-B-A-B_XKB"
 			(at 264.16 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15824,7 +15824,7 @@
 		(instances
 			(project "RP2040-LBX"
 				(path "/17c378e5-d065-46dd-aa4a-654e3a402061"
-					(reference "SW_HOME")
+					(reference "SW_HOME1")
 					(unit 1)
 				)
 			)

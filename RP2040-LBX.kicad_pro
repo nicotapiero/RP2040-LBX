@@ -706,7 +706,7 @@
         "uuid": "17c378e5-d065-46dd-aa4a-654e3a402061"
       }
     ],
-    "used_designators": "SW_L4,#PWR40-44,SW2",
+    "used_designators": "SW_PSTOUCH1,SW_HOME1,SW_BOOTSEL1",
     "variants": []
   },
   "sheets": [
