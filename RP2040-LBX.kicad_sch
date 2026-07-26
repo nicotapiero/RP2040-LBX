@@ -9389,6 +9389,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2297"
+			(at 213.36 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 213.36 132.08 90)
 			(hide yes)
@@ -9973,6 +9984,17 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 208.28 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10818,6 +10840,17 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 208.28 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25117"
 			(at 208.28 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -12645,6 +12678,17 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 170.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2836286"
 			(at 170.18 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14783,6 +14827,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2827654"
+			(at 116.84 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
 			(at 121.92 82.55 0)
 			(hide yes)
@@ -15736,6 +15791,17 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 200.66 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23189"
 			(at 200.66 157.48 0)
 			(hide yes)
 			(show_name no)
