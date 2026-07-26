@@ -134,13 +134,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "14d0036e-6cb8-406e-93ba-df2d497b851d")
-		(at 86.375 -99.5 9)
+		(at 140.2005 -116.5927 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH19"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "36976ea3-5158-4dca-8301-f8a8859feb82")
+			(uuid "e8dc82a5-6348-4fcb-ac0a-1411daff278f")
 			(effects
 				(font
 					(size 1 1)
@@ -150,9 +150,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "67e7aa84-3af6-4cc5-840c-113354d5c462")
+			(uuid "371cb5a0-70d1-4c8c-942d-13e5dcebb8cf")
 			(effects
 				(font
 					(size 1 1)
@@ -164,7 +164,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cd69088-55be-4b4d-aa01-11efe90f5756")
+			(uuid "54764601-6b12-4840-890b-22c99f281a87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175,7 +175,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9e7530b-7e75-40a6-9ef4-9af15dcb0179")
+			(uuid "b1b5b7d6-d5ed-4521-988c-ba6cb6c14f66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,7 +651,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -846,13 +846,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "16824ddf-8923-475f-8e17-9a4290d91e8c")
-		(at -83.05 -196.875 -9)
+		(at 15.7293 -188.1311 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH4"
 			(at -5 -2 171)
 			(layer "B.SilkS")
-			(uuid "43d0ae4c-0c36-4a69-acb8-ce1f98b1e2c4")
+			(uuid "4a52184a-cc37-4795-937b-3b559663aab6")
 			(effects
 				(font
 					(size 1 1)
@@ -864,7 +864,7 @@
 		(property "Value" "choc_SW_HS"
 			(at -0.000001 8.255 171)
 			(layer "F.Fab")
-			(uuid "44acf914-3a0a-47e3-850e-0045e9da4d84")
+			(uuid "06faadff-8051-45a6-89a8-c6beab413aa7")
 			(effects
 				(font
 					(size 1 1)
@@ -876,7 +876,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "488290f0-c954-47cd-8dc0-9f2821ea1191")
+			(uuid "b09b4528-ed53-45a1-9d5b-caba9491f96b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +887,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ed14312-5ec1-4c7d-a6c8-a1816d64d580")
+			(uuid "f15924a5-f7fc-4f06-9679-b706efe03563")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +991,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1100,7 +1100,7 @@
 			(uuid "c23646d5-8de4-471e-a799-e46fdf3c2481")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -1112,7 +1112,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -1223,7 +1223,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1372,7 +1372,7 @@
 			(uuid "ccabd190-b905-4855-8066-0a17498663c0")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -1384,7 +1384,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -1558,13 +1558,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "16a797a3-83b7-4094-8667-b46c3ea702a9")
-		(at -51.175 -177.025 -9)
+		(at 39.1469 -173.5479 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH5"
 			(at -5 -2 171)
 			(layer "B.SilkS")
-			(uuid "3fa075e1-088e-4fe0-9ba8-80c692a017f2")
+			(uuid "948cf331-86ef-4e69-bd93-ac19d8c50312")
 			(effects
 				(font
 					(size 1 1)
@@ -1576,7 +1576,7 @@
 		(property "Value" "choc_SW_HS"
 			(at -0.000001 8.255 171)
 			(layer "F.Fab")
-			(uuid "a4080b45-fc13-427c-8f15-0cfebdfe4af5")
+			(uuid "37665f02-b3d7-4254-8817-8f02162b62c1")
 			(effects
 				(font
 					(size 1 1)
@@ -1588,7 +1588,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d0de981-d263-4134-902f-27c3862de6a1")
+			(uuid "4b1b5b3d-d526-4077-a074-32d9edc3d943")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1599,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ead4624-d3f5-42d2-9bae-384f46f126c6")
+			(uuid "f943db1c-4fb9-47db-a17b-30ac59770bbb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1703,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1812,7 +1812,7 @@
 			(uuid "ae23977a-0bec-4abb-9b33-5bc2639e5c6a")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -1824,7 +1824,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -1935,7 +1935,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -2084,7 +2084,7 @@
 			(uuid "a9b4fee5-c022-4ccc-b5e7-50f41e5d4978")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -2096,7 +2096,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -2270,13 +2270,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "18a525b4-e087-4128-8e9b-42c7ed43e967")
-		(at 54.8 -114.925 9)
+		(at 117.0034 -127.925 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH16"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "fdf5df4f-0975-46f0-a978-8d4130894dc2")
+			(uuid "582329b9-478b-4642-b019-6d22ca305a83")
 			(effects
 				(font
 					(size 1 1)
@@ -2286,9 +2286,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "654975f5-3b7c-40b3-843b-80d07a438506")
+			(uuid "a9523045-60fe-4fdd-bc64-856b254e7ba2")
 			(effects
 				(font
 					(size 1 1)
@@ -2300,7 +2300,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81c805b1-beed-4431-bb2c-750d76a07c96")
+			(uuid "9ae4aad1-45da-4e8b-bac7-a6535f832e6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2311,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "738e86f4-6c40-4e2b-ac92-c8e51373e627")
+			(uuid "bef520f5-afb0-4f7b-8beb-90a58f14e59c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2787,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2982,13 +2982,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "23bb6f2c-ecbb-4d5c-b341-82286aea13c9")
-		(at -4.6 -75.6 -9)
+		(at 73.3641 -99.034 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH15"
 			(at -5 -2 171)
 			(layer "B.SilkS")
-			(uuid "1a54a46a-7e45-4119-8f1d-a6cd5887ca94")
+			(uuid "f036263d-e920-41fc-8d7a-a07708b61394")
 			(effects
 				(font
 					(size 1 1)
@@ -3000,7 +3000,7 @@
 		(property "Value" "choc_SW_HS"
 			(at -0.000001 8.255 171)
 			(layer "F.Fab")
-			(uuid "72c830f8-13e0-415c-b679-066baac8c51b")
+			(uuid "92e4c6e4-991b-47d9-bcde-4b6e23332dcc")
 			(effects
 				(font
 					(size 1 1)
@@ -3012,7 +3012,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2371a150-a04c-4162-954a-8dfee2cc26cc")
+			(uuid "22b0cc0c-d941-447a-bd93-95a1796fb18d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3023,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d7500aeb-5319-4eae-b29f-7eb1beb100a5")
+			(uuid "7e95b5bb-54b6-498f-a9d6-de76ea36000a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3127,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3236,7 +3236,7 @@
 			(uuid "4a720a39-88ed-4fb8-9e87-69773925a670")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -3248,7 +3248,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -3359,7 +3359,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3508,7 +3508,7 @@
 			(uuid "2e6954f4-4eeb-4461-b232-ce3bc6a62da6")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -3520,7 +3520,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -3694,13 +3694,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "2eac897b-20fd-4f99-b0e2-9c314dbb852f")
-		(at 60.95 -75.1 9)
+		(at 121.5216 -98.667 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH18"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "e2c6ec13-f28e-41d5-8426-27d775c5229c")
+			(uuid "07989f84-80dc-43d6-b295-973c73504f7f")
 			(effects
 				(font
 					(size 1 1)
@@ -3710,9 +3710,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "f3ef6dbd-67b9-4585-a9aa-4a614db84439")
+			(uuid "550321ce-2c04-4779-bd4a-e1a4d4942d57")
 			(effects
 				(font
 					(size 1 1)
@@ -3724,7 +3724,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50cc1bcc-f38d-40d0-b0da-ec1c8cc6c734")
+			(uuid "dc747bc1-05d9-489d-b4d0-3ba1d0299911")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3735,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a832a95d-66d6-4950-ac23-7930929ece44")
+			(uuid "50d572b7-d830-4c27-8fe3-5168fe08ea74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4211,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4407,13 +4407,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "32204f0a-6eb1-4e11-bc5c-1843c87ae12d")
-		(at 27.3 -214.8)
+		(at 96.8 -201.3)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH1"
 			(at -5 -2 0)
 			(layer "B.SilkS")
-			(uuid "48455c93-b242-44bc-a59b-2bd2b83640e1")
+			(uuid "33190a33-03c2-4cb6-8397-1d986a305f4c")
 			(effects
 				(font
 					(size 1 1)
@@ -4425,7 +4425,7 @@
 		(property "Value" "choc_SW_HS"
 			(at 0 8.255 0)
 			(layer "F.Fab")
-			(uuid "4c186cc6-54f4-477c-8939-b847860a0acc")
+			(uuid "9c0d2e84-c727-4371-81cf-2d87b1b1cb1c")
 			(effects
 				(font
 					(size 1 1)
@@ -4437,7 +4437,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75bcbc3f-5a05-4a16-b69d-025a0ed9583d")
+			(uuid "17e6fc18-e3d5-450f-b730-751e51f5d1f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +4448,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0d76d9c-1363-4455-92a1-8752dcd1ec28")
+			(uuid "0c3f6ab6-86e7-46a4-a633-d391b12f78ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,13 +5119,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "3b28931b-7a2a-40b6-a28c-5ac843a5c721")
-		(at 112.925 -124.175 9)
+		(at 159.706 -134.7207 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH20"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "79dde5b9-9792-4a8d-bd31-c8646028dd07")
+			(uuid "1390f469-a70b-4ca5-a118-452522da080e")
 			(effects
 				(font
 					(size 1 1)
@@ -5135,9 +5135,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "598105e2-4f52-4ea3-8e6d-cb999282655c")
+			(uuid "4f00acc9-6d20-45ce-8c57-f4fb19a09467")
 			(effects
 				(font
 					(size 1 1)
@@ -5149,7 +5149,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f6e988d-0c7a-4562-818d-89eaec3e8d73")
+			(uuid "ff814364-6645-4032-9650-29db2779aee1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,7 +5160,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "061cddc5-a6f5-4443-b61a-0ec3ca181e3d")
+			(uuid "5851220a-fcc3-456e-9ef2-e49846c440df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +5636,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -5831,13 +5831,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "4c6e335a-ea1e-4804-b454-a8962b6d359f")
-		(at 175.525 -199.55 9)
+		(at 205.696 -190.0963 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH12"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "06dad007-1254-4fbd-bb2e-e93408e0d05c")
+			(uuid "b69b051a-2e6e-4e3b-bfeb-362051e8f2a1")
 			(effects
 				(font
 					(size 1 1)
@@ -5847,9 +5847,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "c8334e13-35c8-4d10-babc-f631aa6ba805")
+			(uuid "cc6c3a6a-472d-44e9-9233-aa66bcb65ee3")
 			(effects
 				(font
 					(size 1 1)
@@ -5861,7 +5861,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f39c262a-13bc-40f7-b4d4-3af2bc86ab7c")
+			(uuid "d1b66af4-c46b-4d00-b20c-429c3132c61a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +5872,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5285c14f-9f46-45f1-9a64-f0dd8b3ef54c")
+			(uuid "5bbfc95c-121e-4d52-8379-68f4e7f20b49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6348,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6543,13 +6543,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "59f47f0e-f5c4-42b9-8d17-005e6c2f01ab")
-		(at 101.375 -212.6 9)
+		(at 151.2206 -199.68373 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH6"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "bd0a0071-b00e-4b9d-905a-3b68d74b0e81")
+			(uuid "4c0b6d9c-9dcf-4aae-9543-d1484fcbf900")
 			(effects
 				(font
 					(size 1 1)
@@ -6559,9 +6559,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "02c3efc7-8c6d-418e-9890-408bc2a81204")
+			(uuid "c13c8675-10d1-4544-ab98-e61b1e7ccbee")
 			(effects
 				(font
 					(size 1 1)
@@ -6573,7 +6573,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "967bd233-3b4a-45d1-926b-b2c2948f7a62")
+			(uuid "9b565f63-2fd1-4562-bbd1-990b03eeb1b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +6584,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4d60651-a860-446a-9be8-22948a4dff47")
+			(uuid "f34d2f35-9187-4716-bb6b-6154c05cd895")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +7060,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -7255,13 +7255,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "6ebc27d5-7a68-4340-a771-7d3b61a22838")
-		(at 212.375 -184.5 9)
+		(at 232.769 -179.0395 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH13"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "58526e65-49dd-4ae5-90f1-96f9c91e2057")
+			(uuid "5338fe7c-f8e4-4599-841e-6cd510349140")
 			(effects
 				(font
 					(size 1 1)
@@ -7271,9 +7271,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "8203a76a-5a23-4364-b292-881e48425297")
+			(uuid "5650903b-73f1-4b6b-acfa-9cacc1b967cf")
 			(effects
 				(font
 					(size 1 1)
@@ -7285,7 +7285,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e84e109-edb4-440f-83df-e142fa5c7e96")
+			(uuid "27c039ef-7829-4908-b5bc-615b003f2fb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7296,7 +7296,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "037c63ef-a8e5-4e96-94ed-31394a2a8396")
+			(uuid "a852c0d6-726e-4077-8d99-5d5599e9b690")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +7772,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -7967,13 +7967,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "7152258d-c9e9-43fb-8761-1ec53eebc631")
-		(at 169.925 -235.05 9)
+		(at 201.582 -216.177 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH8"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "de28226c-1e91-4417-b59e-5fd021c12d53")
+			(uuid "332d3783-37f9-4c27-a64d-96991d06cc1b")
 			(effects
 				(font
 					(size 1 1)
@@ -7983,9 +7983,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "764d392e-238f-4126-b746-145bd77d0078")
+			(uuid "bd86e698-9422-4097-adab-b89226a1be6a")
 			(effects
 				(font
 					(size 1 1)
@@ -7997,7 +7997,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "215f06d0-1d58-4242-b135-b9b22855d8e5")
+			(uuid "eeae2ba1-2c7e-44cd-a423-1095bd39203f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,7 +8008,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "08e79ef7-37d4-4cf0-b247-b0430d752559")
+			(uuid "047aab6b-4278-4a16-832b-28918d32a128")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +8484,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -8679,13 +8679,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "924e4458-6bbe-4e52-9bd1-de35c43aaedd")
-		(at -155.05 -183.875 -9)
+		(at -37.167 -178.5804 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH2"
 			(at -5 -2 171)
 			(layer "B.SilkS")
-			(uuid "eb23a1d6-f110-4dd7-bb09-88f7afd3e9aa")
+			(uuid "dc7fc7d8-ae38-40e1-a164-1761507ed756")
 			(effects
 				(font
 					(size 1 1)
@@ -8697,7 +8697,7 @@
 		(property "Value" "choc_SW_HS"
 			(at -0.000001 8.255 171)
 			(layer "F.Fab")
-			(uuid "ae725fd3-fead-4ea8-b3b8-d534769fcff0")
+			(uuid "e407930c-3327-47c5-afe1-3bafaf942797")
 			(effects
 				(font
 					(size 1 1)
@@ -8709,7 +8709,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab12adf9-fcd3-4ff8-88cf-18cd6eba62ac")
+			(uuid "2ae5b5a0-9444-46fd-b314-8f9fbf77cde5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8720,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7c2c48c-1953-47eb-9463-dd3173c01af7")
+			(uuid "c658929e-426a-4594-96c0-60770e3d1ec4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +8824,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8933,7 +8933,7 @@
 			(uuid "b95290a1-d1f7-4af0-a8e4-8dac34414dfa")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -8945,7 +8945,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -9056,7 +9056,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9205,7 +9205,7 @@
 			(uuid "81516b5c-9bd9-43fa-aa3b-ff6e77eabb24")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -9217,7 +9217,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -9392,13 +9392,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "a8bf4c53-f1ed-4fb9-88d0-c0b205fdec73")
-		(at 106.925 -177.175 9)
+		(at 155.298 -173.6581 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH10"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "d1c1df3e-e557-470d-9136-83a86e41eba7")
+			(uuid "6464d3a6-c02b-4a30-b527-3aa8a127c8ce")
 			(effects
 				(font
 					(size 1 1)
@@ -9408,9 +9408,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "c9c2919d-b12f-482f-9911-a9fc5f8c1e16")
+			(uuid "0357c893-391a-46b7-8399-abee038d8313")
 			(effects
 				(font
 					(size 1 1)
@@ -9422,7 +9422,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72b99ad1-3d9d-4517-bc0d-f0e7931d2af0")
+			(uuid "d7039399-42a4-405e-9954-261084d693c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9433,7 +9433,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d6bd88c-6969-4460-9758-30b1a9d081e8")
+			(uuid "e756fb83-6462-49f2-92dd-c378209ff88a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +9910,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10105,13 +10105,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "b132f86a-47ae-4122-98f0-8885ea2b46a5")
-		(at 81.25 -139.5 9)
+		(at 136.4354 -145.9795 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH17"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "c61fecd8-ee40-4959-a8a8-df854529c872")
+			(uuid "dc1d155e-bdee-4fbf-bbb3-117914252bcf")
 			(effects
 				(font
 					(size 1 1)
@@ -10121,9 +10121,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "38379cc9-d352-404b-b24c-9ac961dccb6f")
+			(uuid "3c34c20c-b497-4c8e-bbb5-5b53e8a25478")
 			(effects
 				(font
 					(size 1 1)
@@ -10135,7 +10135,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91fa988c-9746-4e0a-a936-3feecc8ef964")
+			(uuid "785da610-7313-445e-9b64-69a195a1315f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10146,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b843142f-db48-424d-82c0-040315ac7d7d")
+			(uuid "d524f55a-bf5c-454b-b988-0a4417ff1dfd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +10622,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -10817,13 +10817,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "b14a4fab-cd2b-4004-97ea-7676b10f8128")
-		(at 133.375 -233.05 9)
+		(at 174.73 -214.7077 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH7"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "80d3cc11-8d3b-4323-9789-ff7bb211696b")
+			(uuid "0dcac6b6-c708-4ae5-a88a-cb93125c7f8b")
 			(effects
 				(font
 					(size 1 1)
@@ -10833,9 +10833,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "f5143869-c81f-4fdf-b213-6702911af91b")
+			(uuid "bfec3c85-1fdb-4d66-8bfb-e97172909434")
 			(effects
 				(font
 					(size 1 1)
@@ -10847,7 +10847,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2fdc825-03ec-45a6-9f06-fd3fc9f69e4b")
+			(uuid "f3aca600-e656-4cef-9f7f-65c4c07db987")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10858,7 +10858,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac3f4365-2a83-4cea-93c5-3c2b8a2302f0")
+			(uuid "e937bc8d-b8f8-4fff-93b5-27ba1ff3b399")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11334,7 +11334,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11529,13 +11529,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "b41fa690-fca8-4f28-93f8-ef0444dc442e")
-		(at 206.8 -219.925 9)
+		(at 228.673 -205.06518 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH9"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "6ec1d346-a914-47f0-bd54-4ef45e17ed34")
+			(uuid "a3f0222f-db58-4a8f-af72-cff739106ab3")
 			(effects
 				(font
 					(size 1 1)
@@ -11545,9 +11545,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "3d877166-cd10-4629-afbe-82e500c01318")
+			(uuid "e20b1242-6097-4ab0-b961-e9bc26b6fdc3")
 			(effects
 				(font
 					(size 1 1)
@@ -11559,7 +11559,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d000b405-28b7-4f94-9a88-19627002773d")
+			(uuid "c884b345-0ecf-4d8d-be6e-e406bcaa17b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11570,7 +11570,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3564b43-1e73-408a-a360-dde179f7ac7d")
+			(uuid "8e6f6bc4-9cb0-4c1f-bae8-a3bf4795e087")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,7 +12046,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -12241,13 +12241,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "c330e7d8-a757-4a6b-a009-841ef9abd29e")
-		(at -30.175 -100.175 -9)
+		(at 54.5749 -117.0886 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH14"
 			(at -5 -2 171)
 			(layer "B.SilkS")
-			(uuid "8994e42f-e151-4872-ba26-21b78e8c7e09")
+			(uuid "4b5a7907-c7c5-47ac-8ed6-750b1f97df27")
 			(effects
 				(font
 					(size 1 1)
@@ -12259,7 +12259,7 @@
 		(property "Value" "choc_SW_HS"
 			(at -0.000001 8.255 171)
 			(layer "F.Fab")
-			(uuid "08f3b60c-5b60-4132-8655-5cb00ef2b905")
+			(uuid "73adbfca-4a27-4e46-9b8c-5396153cbcfb")
 			(effects
 				(font
 					(size 1 1)
@@ -12271,7 +12271,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c089c544-fca5-4401-a8cd-f257c1df32b2")
+			(uuid "08adcdd3-7eb1-4eac-a2c6-0d66f618c9d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12282,7 +12282,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2bdd408-1925-4490-b8f9-2b0839352521")
+			(uuid "158f3cfe-a05a-4826-af1c-9118dee7ea2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12386,7 +12386,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12495,7 +12495,7 @@
 			(uuid "6562d7b9-c1cf-4eed-b3d2-04ffc5fd93d5")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -12507,7 +12507,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -12618,7 +12618,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -12767,7 +12767,7 @@
 			(uuid "e63ea4fd-79b5-4bef-9679-9276df998ea0")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -12779,7 +12779,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -12953,13 +12953,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "c5f4fd38-f634-4b91-9a3b-020218930898")
-		(at -119.625 -199.6 -9)
+		(at -11.141 -190.133 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH3"
 			(at -5 -2 171)
 			(layer "B.SilkS")
-			(uuid "3f154ebb-e89f-44c9-ba10-2b66b62bfccd")
+			(uuid "4ad49114-2c13-42b6-a70c-e4e746809f5c")
 			(effects
 				(font
 					(size 1 1)
@@ -12971,7 +12971,7 @@
 		(property "Value" "choc_SW_HS"
 			(at -0.000001 8.255 171)
 			(layer "F.Fab")
-			(uuid "f3186a98-50da-4d6c-980d-ec5a3b25c3cf")
+			(uuid "b390928d-281a-4a2b-af3b-455b732df26b")
 			(effects
 				(font
 					(size 1 1)
@@ -12983,7 +12983,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41368e06-a66f-4e40-9ced-e00853a78a50")
+			(uuid "80d86498-2982-4021-a4bb-12d010c54c32")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12994,7 +12994,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47b221e3-4c75-439e-bfea-3f8f96e2ff02")
+			(uuid "5a2e4241-e050-4d48-bf55-7065f43f0b24")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13098,7 +13098,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13207,7 +13207,7 @@
 			(uuid "17e971ff-7bd8-4dc0-bd2f-b73887dbb993")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -13219,7 +13219,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -13330,7 +13330,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13479,7 +13479,7 @@
 			(uuid "1dc02ff2-dedd-4593-bdcc-f5d5a8b7784d")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -13491,7 +13491,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -13665,13 +13665,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "eae2ca79-6e2b-410d-9a26-f65464e79164")
-		(at 1.8 -115.875 -9)
+		(at 78.066 -128.6229 -9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH21"
 			(at -5 -2 171)
 			(layer "B.SilkS")
-			(uuid "bf223541-2678-4cd1-bf04-930b4cd6138e")
+			(uuid "e0cc828e-9009-47b7-90cc-147f9d4ffd35")
 			(effects
 				(font
 					(size 1 1)
@@ -13683,7 +13683,7 @@
 		(property "Value" "choc_SW_HS"
 			(at -0.000001 8.255 171)
 			(layer "F.Fab")
-			(uuid "b9c156f0-614b-4cc6-9e63-680a615f65e0")
+			(uuid "14fd0c3f-8ec7-4c54-b148-c9a8d0f69ba5")
 			(effects
 				(font
 					(size 1 1)
@@ -13695,7 +13695,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48357396-0fb1-4f6c-bf2d-fd5c1c86e1cf")
+			(uuid "9b793339-133d-47b7-b0a9-f0e3bb3527c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13706,7 +13706,7 @@
 			(at 0 0 171)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71e7ca7a-14e2-4e3e-8fb6-a38aa9c2c5ba")
+			(uuid "57c48332-ba57-4c98-b7b5-7d21b9d4b3ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13810,7 +13810,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13919,7 +13919,7 @@
 			(uuid "82e29ab9-9621-4c0f-8865-0f21fce26512")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -13931,7 +13931,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -14042,7 +14042,7 @@
 		)
 		(fp_line
 			(start -7 6.2)
-			(end -2.5 6.200001)
+			(end -2.5 6.200002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14191,7 +14191,7 @@
 			(uuid "ae1027d9-1f87-4dc7-95b0-606cdf2fe5a8")
 		)
 		(fp_arc
-			(start -2.5 6.200001)
+			(start -2.5 6.200002)
 			(mid -2.146447 6.346447)
 			(end -2 6.7)
 			(stroke
@@ -14203,7 +14203,7 @@
 		)
 		(fp_arc
 			(start -1 3.7)
-			(mid -2.060659 3.26066)
+			(mid -2.060658 3.26066)
 			(end -2.5 2.2)
 			(stroke
 				(width 0.15)
@@ -14377,13 +14377,13 @@
 	(footprint "MicroGRAM:Kailh_socket_PG1350"
 		(layer "F.Cu")
 		(uuid "ec6905d1-b422-40a9-8cbf-afbbdc34b51d")
-		(at 138.8 -198 9)
+		(at 178.7155 -188.9576 9)
 		(descr "Kailh \"Choc\" PG1350 keyswitch socket mount")
 		(tags "kailh,choc")
 		(property "Reference" "CH11"
 			(at -5 -2 9)
 			(layer "B.SilkS")
-			(uuid "cadf2b1b-29fe-47e9-a186-597a8c087dda")
+			(uuid "748ba971-6e26-46a7-88b6-24938a7dbef0")
 			(effects
 				(font
 					(size 1 1)
@@ -14393,9 +14393,9 @@
 			)
 		)
 		(property "Value" "choc_SW_HS"
-			(at 0 8.255 9)
+			(at 0.000001 8.255 9)
 			(layer "F.Fab")
-			(uuid "68ea966e-d5f2-4aac-a3dd-ab64deb1a978")
+			(uuid "9474dd64-6663-4893-bd4f-aa87bcdb0821")
 			(effects
 				(font
 					(size 1 1)
@@ -14407,7 +14407,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "89da79f0-743e-446c-a587-2d5e544423b4")
+			(uuid "6ddbf294-690e-4cf6-87f2-49acfefbfe58")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14418,7 +14418,7 @@
 			(at 0 0 9)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a44fd452-80d8-4ce9-896c-ede3f0d3d036")
+			(uuid "3087e64c-ece9-45de-9436-97127805a711")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14894,7 +14894,7 @@
 		)
 		(fp_line
 			(start 4.5 7.250001)
-			(end 2.000001 7.25)
+			(end 2.000002 7.25)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -24685,13 +24685,13 @@
 	(footprint "qw-footprints:TYPE-C_24P_QCHT"
 		(layer "B.Cu")
 		(uuid "ca2777b4-d00b-4812-88f7-f7aaed508234")
-		(at 27.3 -214.8)
+		(at 199.9 23)
 		(descr "USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A")
 		(tags "USB C Type-C Receptacle Hybrid")
 		(property "Reference" "J1"
 			(at 0.075 7.1 180)
 			(layer "B.SilkS")
-			(uuid "2a5cbb99-2168-4700-83d2-ec379b661f72")
+			(uuid "cadf75a9-d118-420c-bfb9-2c222b2ee085")
 			(effects
 				(font
 					(size 1 1)
@@ -24703,7 +24703,7 @@
 		(property "Value" "USB C Connector"
 			(at -0.075 -5.9 180)
 			(layer "B.Fab")
-			(uuid "b56e398d-16f9-4893-b288-82128f4c7df5")
+			(uuid "55109b90-0469-438e-abcf-d56da90e9415")
 			(effects
 				(font
 					(size 1 1)
@@ -24716,7 +24716,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4752194a-0a0b-42df-bbf9-7222e2686e41")
+			(uuid "6a509ee3-81ca-40f4-9ffd-88d515a481c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24727,7 +24727,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4a7c6ca-92af-4a6e-b7c0-c7d3f2a79ac3")
+			(uuid "54576d97-3c74-4460-be5f-999e91282e93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32072,6 +32072,23 @@
 		)
 		(layer "Eco1.User")
 		(uuid "b2282eaf-bf4b-40ae-84c1-aed186f2691f")
+	)
+	(gr_poly
+		(pts
+			(xy -390.813666 -259.1273) (xy -275.313758 -259.1273) (xy -252.103797 -242.996504) (xy -252.103797 -202.996361)
+			(xy -258.044013 -197.05616) (xy -307.343848 -197.05616) (xy -322.9 -181.5) (xy -322.9 -160.999961)
+			(xy -363.911948 -119.987991) (xy -430.911994 -119.987991) (xy -453.893027 -142.968506) (xy -453.892508 -184.968521)
+			(xy -466.969748 -193.812424) (xy -538.469764 -193.812424) (xy -544.83372 -200.176376) (xy -544.83372 -217.676086)
+			(xy -515.489776 -247.020546) (xy -515.489776 -252.520468) (xy -510.313346 -259.1273) (xy -408.313376 -259.1273)
+			(xy -406.813727 -260.627466) (xy -392.313315 -260.627466)
+		)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Edge.Cuts")
+		(uuid "a2433582-d1a3-40bd-9757-ddbdf59f89da")
 	)
 	(gr_line
 		(start 57.120997 80.833081)
