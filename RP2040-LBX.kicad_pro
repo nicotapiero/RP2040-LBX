@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.875,
-          "width": 0.2
+          "height": 2.6,
+          "width": 2.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -681,7 +681,7 @@
         "uuid": "17c378e5-d065-46dd-aa4a-654e3a402061"
       }
     ],
-    "used_designators": "SW2,#PWR40-44,SW_L4",
+    "used_designators": "SW_PSTOUCH1,SW_HOME1,SW_BOOTSEL1",
     "variants": []
   },
   "sheets": [
