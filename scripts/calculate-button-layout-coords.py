@@ -5,7 +5,7 @@ Method overview:
 1) Detect candidate circles with Hough transform.
 2) Validate/refine each circle by sampling many angles around the circumference.
 3) Keep only circles with strong full-circumference edge support.
-4) OCR text inside each circle (with arrow-shape fallback).
+4) Assign geometry-only labels to detected circles.
 5) Print a table of button coordinates relative to the Start button.
 """
 
@@ -13,28 +13,14 @@ from __future__ import annotations
 
 import argparse
 import csv
-import difflib
 import math
 import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable
 
-try:
-	import cv2
-except ModuleNotFoundError:
-	cv2 = None
-
-try:
-	import numpy as np
-except ModuleNotFoundError:
-	np = None
-
-try:
-	import pytesseract
-except ModuleNotFoundError:
-	pytesseract = None
-
+import cv2
+import numpy as np
 
 @dataclass
 class Circle:
@@ -49,31 +35,6 @@ class Circle:
 class Button:
 	label: str
 	circle: Circle
-
-
-EXPECTED_LABELS = [
-	"Start",
-	"L",
-	"R",
-	"A",
-	"B",
-	"X",
-	"Y",
-	"Z",
-	"LS",
-	"MS",
-	"MX",
-	"MY",
-	"Dpad Toggle",
-	"c Up",
-	"c Down",
-	"c Left",
-	"c Right",
-	"UP",
-	"DOWN",
-	"LEFT",
-	"RIGHT",
-]
 
 
 def parse_args() -> argparse.Namespace:
@@ -830,113 +791,6 @@ def deduplicate_circles(circles: list[Circle]) -> list[Circle]:
 	return kept
 
 
-def normalize_label(label: str) -> str:
-	label = " ".join(label.strip().split())
-	mapping = {
-		"LS": "LS",
-		"MS": "MS",
-		"MX": "MX",
-		"MY": "MY",
-		"DPAD TOGGLE": "Dpad Toggle",
-		"DPADTOGGLE": "Dpad Toggle",
-		"START": "Start",
-		"C UP": "c Up",
-		"C DOWN": "c Down",
-		"C LEFT": "c Left",
-		"C RIGHT": "c Right",
-	}
-	up = label.upper()
-	return mapping.get(up, label)
-
-
-def canonical_key(s: str) -> str:
-	return "".join(ch for ch in s.upper() if ch.isalnum())
-
-
-def fuzzy_map_label(label: str) -> str:
-	if not label:
-		return ""
-	normalized = normalize_label(label)
-	key = canonical_key(normalized)
-	if not key:
-		return ""
-
-	for candidate in EXPECTED_LABELS:
-		if canonical_key(candidate) == key:
-			return candidate
-
-	scores = []
-	for candidate in EXPECTED_LABELS:
-		ckey = canonical_key(candidate)
-		ratio = difflib.SequenceMatcher(a=key, b=ckey).ratio()
-		scores.append((ratio, candidate))
-	best_ratio, best = max(scores, key=lambda t: t[0])
-	if best_ratio >= 0.55:
-		return best
-	return normalized
-
-
-def detect_arrow_label(roi_gray: Any) -> str | None:
-	"""Fallback classifier for triangle-only labels: returns UP/DOWN/LEFT/RIGHT."""
-	blur = cv2.GaussianBlur(roi_gray, (5, 5), 0)
-	_, bw = cv2.threshold(blur, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
-	contours, _ = cv2.findContours(bw, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-	if not contours:
-		return None
-	largest = max(contours, key=cv2.contourArea)
-	area = cv2.contourArea(largest)
-	if area < 40:
-		return None
-
-	peri = cv2.arcLength(largest, True)
-	approx = cv2.approxPolyDP(largest, 0.05 * peri, True)
-	if len(approx) < 3 or len(approx) > 5:
-		return None
-
-	pts = largest.reshape(-1, 2).astype(np.float32)
-	c = pts.mean(axis=0)
-	d2 = ((pts - c) ** 2).sum(axis=1)
-	tip = pts[int(np.argmax(d2))]
-	vx, vy = tip - c
-	if abs(vx) > abs(vy):
-		return "RIGHT" if vx > 0 else "LEFT"
-	return "DOWN" if vy > 0 else "UP"
-
-
-def ocr_label(gray: Any, circle: Circle) -> str:
-	if pytesseract is None:
-		return ""
-
-	h, w = gray.shape[:2]
-	pad = int(max(3, round(circle.r * 0.8)))
-	x0 = max(0, int(round(circle.cx)) - pad)
-	y0 = max(0, int(round(circle.cy)) - pad)
-	x1 = min(w, int(round(circle.cx)) + pad)
-	y1 = min(h, int(round(circle.cy)) + pad)
-	roi = gray[y0:y1, x0:x1]
-	if roi.size == 0:
-		return ""
-
-	roi = cv2.resize(roi, None, fx=3.0, fy=3.0, interpolation=cv2.INTER_CUBIC)
-	roi_blur = cv2.GaussianBlur(roi, (3, 3), 0)
-	_, roi_bw = cv2.threshold(roi_blur, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-
-	cfg = "--psm 7 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-	text = pytesseract.image_to_string(roi_bw, config=cfg)
-	text = fuzzy_map_label(text)
-	if text:
-		return text
-
-	cfg_multi = "--psm 6 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
-	text2 = pytesseract.image_to_string(roi_bw, config=cfg_multi)
-	text2 = fuzzy_map_label(text2)
-	if text2:
-		return text2
-
-	arrow = detect_arrow_label(roi)
-	return arrow or ""
-
-
 def detect_buttons(
 	image_path: Path,
 	samples: int,
@@ -1090,9 +944,7 @@ def detect_buttons(
 
 	buttons: list[Button] = []
 	for i, c in enumerate(circles, start=1):
-		label = ocr_label(gray, c)
-		if not label:
-			label = f"BTN_{i:02d}"
+		label = f"BTN_{i:02d}"
 		buttons.append(Button(label=label, circle=c))
 	return image, buttons
 
@@ -1183,13 +1035,6 @@ def main() -> None:
 		raise SystemExit(f"Image not found: {image_path}")
 	if args.samples < 32:
 		raise SystemExit("Use at least --samples 32 for robust center estimation.")
-
-	if pytesseract is None:
-		print(
-			"Warning: pytesseract not installed. Labels may fall back to BTN_## and arrow detection.\n"
-			"Install with: pip install pytesseract and system package: tesseract-ocr",
-			file=sys.stderr,
-		)
 
 	_, buttons = detect_buttons(
 		image_path=image_path,
