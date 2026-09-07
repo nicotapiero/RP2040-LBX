@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.6,
-          "width": 2.6
+          "height": 0.875,
+          "width": 0.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -76,32 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_issues|194398870|86444999|d770dd9a-1504-4c2d-8f02-9754b181ba88|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|201495370|40343750|ca2777b4-d00b-4812-88f7-f7aaed508234|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|201495370|45020000|ca2777b4-d00b-4812-88f7-f7aaed508234|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_issues|201568870|75220000|4ba242bc-ad72-4e70-a3a2-3d7004c30c1a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|210698870|63975000|f5a725c6-eca5-4d9c-8fd4-051003c9bed0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|220566250|62640000|4d5d2efa-396f-43ae-b29c-c02625a72a3a|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -706,7 +681,7 @@
         "uuid": "17c378e5-d065-46dd-aa4a-654e3a402061"
       }
     ],
-    "used_designators": "SW_PSTOUCH1,SW_HOME1,SW_BOOTSEL1",
+    "used_designators": "SW_L4,#PWR40-44,SW2",
     "variants": []
   },
   "sheets": [
